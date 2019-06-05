@@ -30,6 +30,7 @@ for n_neighbors in neighbors_settings:
     training_acc.append(clf.score(xTrain, yTrain))
     
     print("isReached0")    
+    print()
     
     #Now we want to record the TESTING accuracy of our clf
     test_acc.append(clf.score(xTest, yTest))
